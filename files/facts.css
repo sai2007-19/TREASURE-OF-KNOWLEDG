@@ -1,0 +1,55 @@
+*{
+    margin: 1px;
+    padding: 5px;
+}
+body{
+    background-image: linear-gradient(rgb(0, 255, 242),rgb(60, 255, 0),rgb(0, 247, 255));
+}
+    
+h1{
+    text-align: center;
+}
+img{
+   height: 50vh;
+   width: 50vh;
+}
+p{
+    font-size: 20px;
+}
+hr.new4{
+    border: 1px solid rgb(0, 0, 0);
+}
+.glow:hover, .glow:focus, .glow:active
+{
+-webkit-box-shadow: 15px 15px 20px rgb(0, 0, 0);
+-moz-box-shadow: 15px 15px 20px rgb(0, 0, 0);
+box-shadow: 15px 15px 20px rgb(0, 0, 0);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+
+.glow
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #000000;
+-webkit-box-shadow:  2px 2px 4px 0px #000000;
+box-shadow: 2px 2px 4px 0px #000000;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:0px 0px 0px 0px ;
+}
+p {
+    color: rgb(0, 0, 0);
+    transition-property: color;
+    transition-duration: 2s;
+    font-size: 20px;
+}
+p:hover{
+    color: rgb(0, 60, 255);
+}
+audio { display:none;}
